@@ -16,6 +16,8 @@ If you've made a mistake painting a pixel and want to erase it, just paint it bl
 
 In the same program directory, it will automatically create a file with the chosen name and with the extension "*.ino*". This file will contain an array of the selected screen size, with each of the pixels that must be turned on to form the created image. To display the image call the API "*Panel.h*" function named **image()**, whose first parameter is the created array. And the second argument is the position where the image will be displayed.
 
+You can see a demo of some games using different Arduino sensor incorporated in this [video](https://www.youtube.com/watch?v=bXoufN0ipHg).
+
 That's all!
 
 # Support
