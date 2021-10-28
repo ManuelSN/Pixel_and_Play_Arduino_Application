@@ -6,13 +6,13 @@ The "MatrixPaint" has been developed on proccessing, you can use it to make pain
 
 # Instructions for use
 
-The interface has a canvas, emulating the Neopixel matrix (for changing the canvas matrix size modify the constants "columns" (width) and "rows" (height) in the main file).
+The interface has a canvas, emulating the Neopixel matrix (for changing the canvas matrix size modify the constants "*columns*" (**width**) and "*rows*" (**height**) in the main file).
 
-There is a colour palette in the upper right corner, which can be modified if you wish to enter a specific colour. To change a colour field, look for the "Palettes" class, in "Palettes.pde", and enter the RGB combination of the desired colour in the same position of each matrix in its corresponding primary colour. 
+There is a colour palette in the upper right corner, which can be modified if you wish to enter a specific colour. To change a colour field, look for the "*Palettes*" class, in "*Palettes.pde*", and enter the RGB combination of the desired colour in the same position of each matrix in its corresponding primary colour. 
 
-If you've made a mistake painting a pixel and want to erase it, just paint it black. After pressing the "Generate Code" button you have to type a name for the drawing then, press enter.
+If you've made a mistake painting a pixel and want to erase it, just paint it black. After pressing the "*Generate Code*" button you have to type a name for the drawing then, press enter.
 
-In the same program directory, it will automatically create a file with the chosen name and with the extension ".ino". This file will contain an array of the selected screen size, with each of the pixels that must be turned on to form the created image. To display the image call the API "Panel.h" function named image(), whose first parameter is the created array. And the second argument is the position where the image will be displayed.
+In the same program directory, it will automatically create a file with the chosen name and with the extension "*.ino*". This file will contain an array of the selected screen size, with each of the pixels that must be turned on to form the created image. To display the image call the API "*Panel.h*" function named **image()**, whose first parameter is the created array. And the second argument is the position where the image will be displayed.
 
 That's all!
 
