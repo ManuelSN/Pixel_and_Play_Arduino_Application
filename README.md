@@ -6,6 +6,8 @@ The "MatrixPaint" has been developed on proccessing, you can use it to make pain
 
 # Instructions for use
 
+To run this programme, we first exported it as an *.exe* file for Windows but it did not work properly, so I strongly recommend downloading [processing](https://processing.org/download) and running it from there.
+
 The interface has a canvas, emulating the Neopixel matrix (for changing the canvas matrix size modify the constants "*columns*" (**width**) and "*rows*" (**height**) in the main file).
 
 There is a colour palette in the upper right corner, which can be modified if you wish to enter a specific colour. To change a colour field, look for the "*Palettes*" class, in "*Palettes.pde*", and enter the RGB combination of the desired colour in the same position of each matrix in its corresponding primary colour. 
